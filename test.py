@@ -9,7 +9,7 @@ class Test(unittest.TestCase):
         self.assertEqual(calculator.sub(2, 3), -1)
   
     def test_mult(self):
-        self.assertEqual(calculator.mult(2, 3), 6)
+        self.assertEqual(calculator.mult(3, 3), 6)
 
     def test_div(self):
         self.assertEqual(calculator.div(6, 3), 2)
